@@ -1,7 +1,7 @@
 <?php 
 // video 667
 
-define('URL_SITIO','http://localhost:81/paypal/');
+define('URL_SITIO','https://paypal-prueba.herokuapp.com/');
 require 'paypal/autoload.php'; 
 $apiContext = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
