@@ -8,7 +8,7 @@
         $paymentId = $_GET['paymentId'];
         if($resultado === 'true'){
             echo 'El pago se realizo correctamente';
-            echo 'el ID es {$paymentId}';
+            echo "el ID es {$paymentId}";
         }else{
             echo 'el pago se cancelo';
         }
